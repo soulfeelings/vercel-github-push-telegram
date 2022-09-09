@@ -137,7 +137,7 @@ const requestListener = function (req, res) {
                 answer = {msg: 'User exists', type: 'error'};
             } else {
                 addUserToOM(user.nick + ' ' + user.phone);
-                answer = {msg: 'User added', type: 'success'};
+                answer = {msg: 'User added', type: 'success'};    
             }
             res.end(JSON.stringify(answer));            
         })
