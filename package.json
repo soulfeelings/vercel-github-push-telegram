@@ -1,7 +1,6 @@
 {
-  "name": "telegram-with-server",
+  "name": "telegram-with-server-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/soulfeelings/telegram-with-server/issues"
   },
-  "homepage": "https://github.com/soulfeelings/telegram-with-server#readme"
+  "homepage": "https://github.com/soulfeelings/telegram-with-server#readme",
+  "description": ""
 }
